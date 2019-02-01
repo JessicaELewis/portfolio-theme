@@ -1,0 +1,48 @@
+.flex {
+  &-50 {
+    flex-basis: 50%;
+    @media (min-width: 576px) {
+      &-sm {
+        flex-basis: 50%;
+      }
+    }
+    @media (min-width: 768px) {
+      &-md {
+        flex-basis: 50%;
+      }
+    }
+    @media (min-width: 992px) {
+      &-lg {
+        flex-basis: 50%;
+      }
+    }
+    @media (min-width: 1200px) {
+      &-xl {
+        flex-basis: 50%;
+      }
+    }
+  }
+  &-75 {
+    flex-basis: 75%;
+    @media (min-width: 576px) {
+      &-sm {
+        flex-basis: 75%;
+      }
+    }
+    @media (min-width: 768px) {
+      &-md {
+        flex-basis: 75%;
+      }
+    }
+    @media (min-width: 992px) {
+      &-lg {
+        flex-basis: 75%;
+      }
+    }
+    @media (min-width: 1200px) {
+      &-xl {
+        flex-basis: 75%;
+      }
+    }
+  }
+}

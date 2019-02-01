@@ -1,0 +1,64 @@
+html {
+  font-size: 10px;
+}
+body {
+  font-family: 'open sans';
+  font-size: 2rem;
+  line-height: 1.5;
+  color: get-color('charcoal');
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+  font-family: 'Unica One', san-serif;
+  text-transform: uppercase;
+  color: get-color('orange');
+  text-align: center;
+}
+
+h1, .h1 {
+  font-size: 7rem;
+}
+h2, .h2 {
+  font-size: 5rem;
+  margin-bottom: 0.6em;
+}
+
+header, .section__tools {
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+}
+
+main, footer {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+main, footer, .project__content {
+  background-color: get-color('orange');
+  h1, .h1, h2, .h2, h3, .h3 {
+    color: get-color('black');
+  }
+}
+
+p {
+  margin-bottom: 0;
+  & + & {
+    margin-top: 1em;
+  }
+}
+
+footer {
+  position: relative;
+}
+.copyright {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem 0;
+  background-color: rgba(get-color('charcoal'), .8);
+  color: get-color('white');
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1;
+}

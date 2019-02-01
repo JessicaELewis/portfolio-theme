@@ -1,0 +1,55 @@
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+blockquote {
+  margin: 0 0 1rem;
+}
+.blockquote {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  &-footer {
+    display: block;
+    font-size: 80%;
+    color: #6c757d;
+    &::before {
+      content: "\2014 \00A0";
+    }
+  }
+}
+
+
+code {
+  font-size: 87.5%;
+  color: #e83e8c;
+  word-break: break-word;
+  a > & {
+    color: inherit;
+  }
+
+  pre & {
+    font-size: inherit;
+    color: inherit;
+    word-break: normal;
+  }
+}
+
+pre {
+  display: block;
+  font-size: 87.5%;
+  color: #212529;
+}
+.pre-scrollable {
+  max-height: 340px;
+  overflow-y: scroll;
+}

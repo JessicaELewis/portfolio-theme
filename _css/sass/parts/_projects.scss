@@ -1,0 +1,46 @@
+.section__projects {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  & > div:not(.modal) {
+    margin-bottom: 8rem;
+  }
+}
+
+.project {
+  $p: &;
+  margin: 0 5rem;
+  &:hover {
+    #{$p}__content {
+      opacity: 1;
+      transition: opacity .3s ease-in-out;
+    }
+  }
+  &s {
+    &__content {
+
+      @media (max-width: 767px) {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+  }
+  &__image img {
+    @media (max-width: 991px) {
+      width: 300px;
+      height: auto;
+    }
+  }
+  &__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: get-color('orange');
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    padding: 5%;
+  }
+}
+

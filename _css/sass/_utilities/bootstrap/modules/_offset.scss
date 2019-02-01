@@ -1,0 +1,79 @@
+
+.offset {
+  &-1 {margin-left: 8.333333%; }
+  &-2 {margin-left: 16.666667%; }
+  &-3 {margin-left: 25%; }
+  &-4 {margin-left: 33.333333%; }
+  &-5 {margin-left: 41.666667%; }
+  &-6 {margin-left: 50%; }
+  &-7 {margin-left: 58.333333%; }
+  &-8 {margin-left: 66.666667%; }
+  &-9 {margin-left: 75%; }
+  &-10 {margin-left: 83.333333%; }
+  &-11 {margin-left: 91.666667%; }
+  @media (min-width: 576px) {
+    &-sm {
+      &-0 {margin-left: 0; }
+      &-1 {margin-left: 8.333333%; }
+      &-2 {margin-left: 16.666667%; }
+      &-3 {margin-left: 25%; }
+      &-4 {margin-left: 33.333333%; }
+      &-5 {margin-left: 41.666667%; }
+      &-6 {margin-left: 50%; }
+      &-7 {margin-left: 58.333333%; }
+      &-8 {margin-left: 66.666667%; }
+      &-9 {margin-left: 75%; }
+      &-10 {margin-left: 83.333333%; }
+      &-11 {margin-left: 91.666667%; }
+    }
+  }
+
+  @media (min-width: 768px) {
+    &-md {
+      &-0 {margin-left: 0; }
+      &-1 {margin-left: 8.333333%; }
+      &-2 {margin-left: 16.666667%; }
+      &-3 {margin-left: 25%; }
+      &-4 {margin-left: 33.333333%; }
+      &-5 {margin-left: 41.666667%; }
+      &-6 {margin-left: 50%; }
+      &-7 {margin-left: 58.333333%; }
+      &-8 {margin-left: 66.666667%; }
+      &-9 {margin-left: 75%; }
+      &-10 {margin-left: 83.333333%; }
+      &-11 {margin-left: 91.666667%; }
+    }
+  }
+  @media (min-width: 992px) {
+    &-lg {
+      &-0 {margin-left: 0; }
+      &-1 {margin-left: 8.333333%; }
+      &-2 {margin-left: 16.666667%; }
+      &-3 {margin-left: 25%; }
+      &-4 {margin-left: 33.333333%; }
+      &-5 {margin-left: 41.666667%; }
+      &-6 {margin-left: 50%; }
+      &-7 {margin-left: 58.333333%; }
+      &-8 {margin-left: 66.666667%; }
+      &-9 {margin-left: 75%; }
+      &-10 {margin-left: 83.333333%; }
+      &-11 {margin-left: 91.666667%; }
+    }
+  }
+  @media (min-width: 1200px) {
+    &-xl {
+      &-0 {margin-left: 0; }
+      &-1 {margin-left: 8.333333%; }
+      &-2 {margin-left: 16.666667%; }
+      &-3 {margin-left: 25%; }
+      &-4 {margin-left: 33.333333%; }
+      &-5 {margin-left: 41.666667%; }
+      &-6 {margin-left: 50%; }
+      &-7 {margin-left: 58.333333%; }
+      &-8 {margin-left: 66.666667%; }
+      &-9 {margin-left: 75%; }
+      &-10 { margin-left: 83.333333%; }
+      &-11 { margin-left: 91.666667%; }
+    }
+  }
+}

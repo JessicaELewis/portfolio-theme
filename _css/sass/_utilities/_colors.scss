@@ -1,0 +1,16 @@
+$colors: (
+        'black': rgb(0,0,0),
+        'white': rgb(255,255,255),
+        'orange': #ff8833,
+        'tangerine': rgb(227, 91, 28),
+        'charcoal': rgb(48, 48, 48),
+);
+
+@function get-color($key) {
+  @if map-has-key($colors, $key) {
+    @return map-get($colors, $key);
+  }
+
+  @warn "Unknown `#{$key}` in $colors.";
+  @return null;
+}

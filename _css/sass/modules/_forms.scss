@@ -1,0 +1,24 @@
+.button:hover {
+  transition: .2s;
+  padding: 15px 50px;
+  background: get-color('black');
+}
+
+.button {
+  color: get-color('white');
+  transition: .2s;
+  padding: 15px 30px;
+  border: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: .9em;
+  background: get-color('charcoal');
+}
+
+.gform_wrapper .gform_footer {
+  text-align: center;
+}
+
+span.gfield_required {
+  display: none;
+}

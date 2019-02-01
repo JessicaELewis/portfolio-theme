@@ -1,0 +1,20 @@
+.order {
+  &-first { order: -1; }
+  &-0 { order: 0; }
+  &-1 { order: 1; }
+  &-2 { order: 2; }
+  &-3 { order: 3; }
+  &-last {
+    order: 999;
+    &-lg {
+      @media (min-width: 992px) {
+        order: 999;
+      }
+    }
+    &-md {
+      @media (min-width: 768px) {
+        order: 999;
+      }
+    }
+  }
+}

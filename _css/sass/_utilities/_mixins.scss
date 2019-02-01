@@ -1,0 +1,51 @@
+$breakpoints: (
+        'xs': 480px,
+        'sm': 768px,
+        'md': 992px,
+        'lg': 1200px,
+        'xl': 1600px
+);
+
+$breakpoints-count: length($breakpoints);
+
+@for $i from 1 through $breakpoints-count {
+  $bp: nth(map-keys($breakpoints), $i);
+  $next-bp: if($i < $breakpoints-count, nth(map-keys($breakpoints), $i + 1), null);
+  $display-modes: inline inline-block block; // TODO: support other types?
+
+  .hide-#{$bp} {
+    @if $i == 1 {
+      @include media('<#{$next-bp}') {
+        display: none;
+      }
+    } @else if $i == $breakpoints-count {
+      @include media('>=#{$bp}') {
+        display: none;
+      }
+    } @else {
+      @include media('>=#{$bp}', '<#{$next-bp}') {
+        display: none;
+      }
+    }
+  }
+
+  @each $display-mode in $display-modes {
+    .show-#{$bp}-#{$display-mode} {
+      display: none;
+
+      @if $i == 1 {
+        @include media('<#{$next-bp}') {
+          display: $display-mode;
+        }
+      } @else if $i == $breakpoints-count {
+        @include media('>=#{$bp}') {
+          display: $display-mode;
+        }
+      } @else {
+        @include media('>=#{$bp}', '<#{$next-bp}') {
+          display: $display-mode;
+        }
+      }
+    }
+  }
+}

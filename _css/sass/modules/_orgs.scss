@@ -1,0 +1,13 @@
+.org {
+  width: 33%;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  svg {
+    height: 100px;
+    max-width: 100%;
+    max-height: 100%;
+    * {
+      fill: get-color('orange') !important;
+    }
+  }
+}
