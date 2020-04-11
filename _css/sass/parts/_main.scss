@@ -1,6 +1,7 @@
 .main {
   &__image {
     text-align: center;
+    max-width: 350px;
     img {
       border: 6px solid get-color('charcoal');
       border-radius: 50%;

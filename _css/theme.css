@@ -7227,6 +7227,7 @@ footer {
 
 .main__image {
   text-align: center;
+  max-width: 350px;
 }
 .main__image img {
   border: 6px solid #303030;

@@ -4,8 +4,8 @@
             <div class="projects__content">
 
             <h2>Projects</h2>
-            <p>For the past few years I’ve been focusing on WordPress Development. I developed an interest in PHP and have been enjoying the nuances of theme and plugin development. Most of my experience in WordPress Development is from my latest place of employment, PBHS Inc., where we were encouraged to write and deploy helper functions or templates to increase the efficiency of our team and personal workflows. I often enjoyed taking advantage of this and contributed dozens of code snippets that the team is still utilizing today.</p>
-            <p><strong>Check out a selection of custom WordPress themes I built while at PBHS:</strong></p>
+            <p>I’ve been focusing on WordPress Development for the past 5 years and have used various strategies for theme building. I enjoy writing clean code and often extrapolate frequently-used snippets into functions that can be used more globally. My workflow tends to change a little at a time between each project as I think of better ways to organize my code or want to try a new approach in running through a project timeline. Because of this drive to improve both my code and my time management, I have the flexibility to work with a wide variety of teams and workflows.</p>
+            <p><strong>Check out a selection of custom WordPress themes I've built:</strong></p>
 
             </div>
 
